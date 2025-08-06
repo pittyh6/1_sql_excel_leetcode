@@ -8,6 +8,6 @@
 | Problem | Tech | Link   |
 | :-------- |:------- | :------------------------- |
 | 550. Game Play Analysis IV | SQL & Excel | [Link Result](https://github.com/pittyh6/1_sql_excel_leetcode/tree/main/550.%20Game%20Play%20Analysis%20IV)|
-|570. Managers with at Least 5 Direct Reports| SQL & Excel | [Link Result] (https://github.com/pittyh6/1_sql_excel_leetcode/tree/main/570.%20Managers%20with%20at%20Least%205%20Direct%20Reports)|
+|570. Managers with at Least 5 Direct Reports| SQL & Excel | [Link Result](https://github.com/pittyh6/1_sql_excel_leetcode/tree/main/570.%20Managers%20with%20at%20Least%205%20Direct%20Reports)|
 <!-- |  | | **GitHub**. [link]() 
 |⎯⎯|⎯|⎯| |-->
