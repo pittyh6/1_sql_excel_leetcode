@@ -51,3 +51,6 @@ HAVING COUNT(ec.managerId) >= 5;
 <hr>
 
 ### Excel Solution
+<img width="636" height="161" alt="image" src="https://github.com/user-attachments/assets/cc1195f7-e482-4a17-8169-462316166672" />
+<img width="1056" height="662" alt="image" src="https://github.com/user-attachments/assets/65648606-bf95-438f-b90e-332deba7e6c5" />
+
