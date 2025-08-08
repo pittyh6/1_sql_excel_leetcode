@@ -48,10 +48,6 @@ Round tiv_2016 to two decimal places.
 ### SQL Solution
 1) First solution
 ```sql
-
-```
-2) Second Solution
-```sql
 WITH get_unique_location AS (
     SELECT pid, tiv_2015, tiv_2016 , lat, lon
     FROM Insurance
@@ -68,6 +64,10 @@ SELECT ROUND(SUM(gul.tiv_2016),2) AS tiv_2016
 FROM get_mult_tiv_2015 gmt 
 INNER JOIN get_unique_location gul 
     ON gmt.tiv_2015 = gul.tiv_2015
+```
+2) Second Solution
+```sql
+
 ```
 
 <hr>
