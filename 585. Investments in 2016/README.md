@@ -67,7 +67,17 @@ INNER JOIN get_unique_location gul
 ```
 2) Second Solution
 ```sql
-
+--Runtime: 549ms 
+WITH get_partition AS (
+    SELECT 
+        tiv_2016,
+        COUNT(*) OVER (PARTITION BY lat, lon) AS get_location,
+        COUNT(tiv_2015) OVER (PARTITION BY tiv_2015) AS get_tiv_2015
+    FROM Insurance
+)
+SELECT ROUND(SUM(tiv_2016),2) AS tiv_2016
+FROM get_partition 
+WHERE get_location = 1 AND get_tiv_2015 > 1
 ```
 
 <hr>
