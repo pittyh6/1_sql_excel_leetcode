@@ -83,5 +83,7 @@ WHERE get_location = 1 AND get_tiv_2015 > 1
 <hr>
 
 ### Excel Solution
+<img width="889" height="370" alt="image" src="https://github.com/user-attachments/assets/35c13f78-a181-4b17-8e8c-0d30d1e7c262" />
+<img width="1054" height="665" alt="image" src="https://github.com/user-attachments/assets/24d90b22-0cdf-428d-ba5b-323de6e16656" />
 
 
