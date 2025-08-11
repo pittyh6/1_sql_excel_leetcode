@@ -1,3 +1,7 @@
+### Problem: 3642. Find Books with Polarized Opinions
+
+<hr>
+
 ### Table
 
 Table: books
@@ -40,9 +44,6 @@ Calculate the polarization score as the number of extreme ratings (ratings ≤ 2
 Only include books where polarization score ≥ 0.6 (at least 60% extreme ratings)
 Return the result table ordered by polarization score in descending order, then by title in descending order.
 
-<hr>
-
-### Problem: 3642. Find Books with Polarized Opinions
 
 <hr>
 
