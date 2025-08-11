@@ -65,12 +65,6 @@ ORDER BY r.polarization_score DESC, b.title DESC
 
 ```
 
-2. Second Solution
-
-```sql
---RunTime
-```
-
 <hr>
 
 ### Excel Solution
