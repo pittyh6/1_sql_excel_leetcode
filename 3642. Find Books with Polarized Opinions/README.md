@@ -1,16 +1,6 @@
 ### Table
 
 Table: books
-
-| Column Name |  Type   |
-| :---------- | :-----: |
-| book_id     |   int   |
-| title       | varchar |
-| author      | varchar |
-| genre       | varchar |
-| pages       |   int   |
-
-books =
 | book_id | title | author | genre | pages |
 | ------- | ---------------------- | ------------- | --------- | ----- |
 | 1 | The Great Gatsby | F. Scott | Fiction | 180 |
@@ -19,20 +9,7 @@ books =
 | 4 | Pride and Prejudice | Jane Austen | Romance | 432 |
 | 5 | The Catcher in the Rye | J.D. Salinger | Fiction | 277 |
 
-book_id is the unique ID for this table.
-Each row contains information about a book including its genre and page count.
-
 Table: reading_sessions
-
-| Column Name    |  Type   |
-| :------------- | :-----: |
-| session_id     |   int   |
-| book_id        |   int   |
-| reader_name    | varchar |
-| pages_read     |   int   |
-| session_rating |   int   |
-
-reading_sessions =
 | session_id | book_id | reader_name | pages_read | session_rating |
 | ---------- | ------- | ----------- | ---------- | -------------- |
 | 1 | 1 | Alice | 50 | 5 |
@@ -55,10 +32,6 @@ reading_sessions =
 | 18 | 4 | Ruby | 140 | 3 |
 | 19 | 5 | Sam | 80 | 1 |
 | 20 | 5 | Tara | 70 | 2 |
-
-session_id is the unique ID for this table.
-Each row represents a reading session where someone read a portion of a book. session_rating is on a scale of 1-5.
-Write a solution to find books that have polarized opinions - books that receive both very high ratings and very low ratings from different readers.
 
 A book has polarized opinions if it has at least one rating ≥ 4 and at least one rating ≤ 2
 Only consider books that have at least 5 reading sessions
