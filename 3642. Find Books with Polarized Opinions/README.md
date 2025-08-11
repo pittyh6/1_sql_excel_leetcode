@@ -10,8 +10,18 @@ Table: books
 | genre       | varchar |
 | pages       |   int   |
 
+books =
+| book_id | title | author | genre | pages |
+| ------- | ---------------------- | ------------- | --------- | ----- |
+| 1 | The Great Gatsby | F. Scott | Fiction | 180 |
+| 2 | To Kill a Mockingbird | Harper Lee | Fiction | 281 |
+| 3 | 1984 | George Orwell | Dystopian | 328 |
+| 4 | Pride and Prejudice | Jane Austen | Romance | 432 |
+| 5 | The Catcher in the Rye | J.D. Salinger | Fiction | 277 |
+
 book_id is the unique ID for this table.
 Each row contains information about a book including its genre and page count.
+
 Table: reading_sessions
 
 | Column Name    |  Type   |
@@ -21,6 +31,30 @@ Table: reading_sessions
 | reader_name    | varchar |
 | pages_read     |   int   |
 | session_rating |   int   |
+
+reading_sessions =
+| session_id | book_id | reader_name | pages_read | session_rating |
+| ---------- | ------- | ----------- | ---------- | -------------- |
+| 1 | 1 | Alice | 50 | 5 |
+| 2 | 1 | Bob | 60 | 1 |
+| 3 | 1 | Carol | 40 | 4 |
+| 4 | 1 | David | 30 | 2 |
+| 5 | 1 | Emma | 45 | 5 |
+| 6 | 2 | Frank | 80 | 4 |
+| 7 | 2 | Grace | 70 | 4 |
+| 8 | 2 | Henry | 90 | 5 |
+| 9 | 2 | Ivy | 60 | 4 |
+| 10 | 2 | Jack | 75 | 4 |
+| 11 | 3 | Kate | 100 | 2 |
+| 12 | 3 | Liam | 120 | 1 |
+| 13 | 3 | Mia | 80 | 2 |
+| 14 | 3 | Noah | 90 | 1 |
+| 15 | 3 | Olivia | 110 | 4 |
+| 16 | 3 | Paul | 95 | 5 |
+| 17 | 4 | Quinn | 150 | 3 |
+| 18 | 4 | Ruby | 140 | 3 |
+| 19 | 5 | Sam | 80 | 1 |
+| 20 | 5 | Tara | 70 | 2 |
 
 session_id is the unique ID for this table.
 Each row represents a reading session where someone read a portion of a book. session_rating is on a scale of 1-5.
