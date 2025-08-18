@@ -2,25 +2,24 @@
 
 Input:
 Tree table:
-+----+------+
 | id | p_id |
-+----+------+
+|:----|:------:|
 | 1 | null |
 | 2 | 1 |
 | 3 | 1 |
 | 4 | 2 |
 | 5 | 2 |
-+----+------+
+
 Output:
-+----+-------+
-| id | type |
-+----+-------+
-| 1 | Root |
-| 2 | Inner |
-| 3 | Leaf |
-| 4 | Leaf |
-| 5 | Leaf |
-+----+-------+
+
+| id    |   type   |
+| :---- | :------: |
+| 1     |   Root   |
+| 2     |  Inner   |
+| 3     |   Leaf   |
+| 4     |   Leaf   |
+| 5     |   Leaf   |
+| :---- | :------: |
 
 <hr>
 
@@ -28,12 +27,11 @@ Output:
 
 Table: Tree
 
-+-------------+------+
 | Column Name | Type |
-+-------------+------+
-| id | int |
-| p_id | int |
-+-------------+------+
+| :---------- | :--: |
+| id          | int  |
+| p_id        | int  |
+
 id is the column with unique values for this table.
 Each row of this table contains information about the id of a node and the id of its parent node in a tree.
 The given structure is always a valid tree.
