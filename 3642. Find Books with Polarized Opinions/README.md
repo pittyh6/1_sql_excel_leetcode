@@ -44,7 +44,6 @@ Calculate the polarization score as the number of extreme ratings (ratings ≤ 2
 Only include books where polarization score ≥ 0.6 (at least 60% extreme ratings)
 Return the result table ordered by polarization score in descending order, then by title in descending order.
 
-
 <hr>
 
 ### SQL Solution
@@ -52,7 +51,7 @@ Return the result table ordered by polarization score in descending order, then 
 1. First solution
 
 ```sql
---RunTime 507ms
+--RunTime 107ms
 WITH rating AS(
     SELECT
         book_id,
@@ -76,6 +75,7 @@ ORDER BY r.polarization_score DESC, b.title DESC
 <hr>
 
 ### Excel Solution
+
 Books
 <img width="1020" height="472" alt="image" src="https://github.com/user-attachments/assets/e4d553be-b888-4f4f-abef-46c16e1314b3" />
 
@@ -84,4 +84,3 @@ Reading Session
 
 Combined
 <img width="1020" height="748" alt="image" src="https://github.com/user-attachments/assets/94c6cb5e-6553-4cc7-a34c-1d373749af8d" />
-
